@@ -54,16 +54,20 @@ The analysis uses metadata from Project Gutenberg, including Kullback-Leibler di
    - The OLS regression model achieved an R-squared value of 0.118, indicating that the model explains 11.8% of the variability in log downloads.
 
 ## Project Folder Structure :file_folder:
-
-📦 Project_Gutenberg_Analysis
 ``
-├── data
-│   ├── SPGC-metadata-2018-07-18.csv
-│   ├── KLDscores.csv
-│   ├── extra_controls.csv
-├── notebooks
-│   └── Data_Analysis_Task_Project_Gutenberg.ipynb
-├── results
-│   └── regression_results.txt
-└── README.md
+📦 Project_Gutenberg_Analysis
+├─ data
+│  ├─ SPGC-metadata-2018-07-18.csv
+│  ├─ KLDscores.csv
+│  └─ extra_controls.csv
+├─ notebooks
+│  └─ Data_Analysis_Task_Project_Gutenberg.ipynb
+├─ src
+│   ├─ data_loading.py
+│   ├─ feature_engineering.py
+│   ├─ modeling.py
+│   └─ evaluation.py
+├─ results
+│  └─ regression_results.txt
+└─ README.md
 ``
